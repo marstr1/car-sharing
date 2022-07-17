@@ -1,0 +1,35 @@
+/* Wymiary
+Treść (content) strony powinna zajmować dokładnie 1352px. Taką szerokość powinna mieć klasa .container. Tła poszczególnych sekcji mają być edge-to-edge naszego okna przeglądarki.
+
+Staraj się nie nadawać elementom sztywnych szerokości czy wysokości. Dobranie odpowiednich paddingów i marginesów da pożądany efekt, a będzie Ci łatwiej podczas kolejnych modułów dostosować tę stronę do urządzeń mobilnych.
+
+Kolory
+W projekcie użyto następujących kolorów:
+
+Główny (color-primary) #08A6E4
+
+Główny używany przy cieniach (color-primary-shadow) rgba(7, 172, 230, .16)
+
+Akcent czerwony (color-redish) #FB3B64
+
+Akcent zielony (color-green) #55DFB4
+
+Czarny (color-black) #000000
+
+Szary (color-grey) #A5A5A5
+
+Jasny szary (color-light-grey) #F7F7F7
+
+Biały (color-white) #FFFFFF
+
+Jednostki
+W projekcie można używać wszystkich jednostek których do tej pory się nauczyliśmy.
+
+em, rem - ustawianie wielkości fontów czy wysokości linii
+vw, vh - kiedy musimy wymusić na elemencie relatywną szerokość czy wysokość względem wielkości ekranu (przydatne kiedy sekcja ma zajmować 100% wysokości ekranu)
+px - marginesy, paddingi, cienie, bordery itp.
+Fonty
+Fonty użyte w projekcie to:
+
+Raleway [300, 400, 700, 800]
+Open Sans [300, 400, 700] */
