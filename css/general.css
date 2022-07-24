@@ -1,0 +1,100 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+- FONT SIZE SYSTEM (px)
+ 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+ - FONT WEIGHTS
+Default:400
+500
+600
+700
+
+ - LINE HEIGHTS
+ Default 1
+ small: 1.05
+paragraph default: 1.6
+
+- letter spacing
+-0.5px
+0.75px
+
+
+--- 02 COLORS
+- primary: #ff0000
+-primary shade #b30000
+-background: #28272c;
+- font #FFFFFF29 (white)
+ - tints
+ - shades
+ - accents
+ - Greys: #555 #333
+ 
+
+ ---03 SHADOWS
+
+ ---04 BORDER RADIUS
+ by default: 9px
+
+ --05 WHITESPACE
+ SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+:root {
+  --color-primary: #ff0000;
+  --color-whitefont: #fff;
+  --color-primary-shade: #b30000;
+  --color-background-grey: #28272c;
+  --color-text-grey: #333;
+  --color-lightest2-grey: #b2b2b2;
+  --color-pink: #ff00004d;
+  --font-nunito-sans: "Nunito Sans", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+}
+.container {
+  width: 1088px;
+  margin: 0 auto;
+}
+html {
+  font-size: 62.5%;
+}
+
+.btn-big:link,
+.btn-big:visited {
+  display: inline-block;
+  font-weight: 700;
+  border: none;
+  border-radius: 3rem;
+  padding: 1.6rem 2.8rem;
+  min-height: 2.8rem;
+  min-width: 4.5rem;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.btn-small:link,
+.btn-small:visited {
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 3rem;
+  padding: 1rem 1.5rem;
+  min-height: 1.8rem;
+  min-width: 3.2rem;
+  text-transform: uppercase;
+  background-color: var(--color-primary);
+  color: var(--color-whitefont);
+  transition: all 0.3s;
+}
+.btn-small:hover,
+.btn-small:active {
+  background-color: var(--color-primary-shade);
+}
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.text {
+  font-size: 1rem;
+  font-weight: 400;
+}
